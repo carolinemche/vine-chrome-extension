@@ -1,29 +1,55 @@
 body {
   margin: 0;
   padding: 0;
-  height: 400px;
+  max-height: 400px;
   width: 400px;
   background: #00B386;
 }
 
-h2 {
-  display:inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+h1{
+  font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
   color: white;
-  margin: 0;
-  margin-left: 1em;
-  margin-bottom: 1em;
-  background-color:black;
-}
-#randomize{
- background-color: white;
- display: inline-block;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+
 }
 
-#captured-image {  display: block;
+#randomize {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: white;
+  font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+#randomize:hover{
+  color:#00B386;
+  transform: translateY(4px);
+}
+
+#vine-video {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
   width: 300px;
   height: 250px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+#message{
+  font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+
 }
